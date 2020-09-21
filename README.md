@@ -53,7 +53,7 @@ Go to your nuxt.config.js and add it to your plugin section
 ** https://nuxtjs.org/guide/plugins
 */
 ............
-plugins: [{src: '~/plugins/flutterwave', ssr: false},],
+plugins: [{src: '~/plugins/paywithbank3d', ssr: false},],
 ...........
 ```
 

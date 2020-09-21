@@ -1,6 +1,6 @@
 
 const payWithBank3D = {
-  install(Vue, merchant_Key) {
+  install(Vue, {merchantKey}) {
     Vue.mixin({
       mounted() {
         const payWithBank3DJS = 'https://parkwaycdnstorage.blob.core.windows.net/bank3d/bank3d.min.js'
@@ -15,7 +15,7 @@ const payWithBank3D = {
     Vue.prototype.$paywithbank3d = {
       open(options){
         const payment = window.Bank3D.createPayment({
-          merchantKey: merchant_Key,
+          merchantKey: merchantKey,
           ...options
         })
         payment.open();
