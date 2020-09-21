@@ -1,7 +1,7 @@
 {
-  "name": "vue-paywithbank3d",
+  "name": "@parkwayprojects/vue-paywithbank3d",
   "version": "1.0.0",
-  "description": "",
+  "description": "A VueJS Package For Working With PayWithBank3D Seamlessly",
   "main": "dist/vue-paywithbank3d.ssr.js",
   "browser": "dist/vue-paywithbank3d.esm.js",
   "module": "dist/vue-paywithbank3d.esm.js",
@@ -40,5 +40,24 @@
   },
   "engines": {
     "node": ">=10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkwayprojects/vue-paywithbank3d.git"
+  },
+  "keywords": [
+    "vuejs",
+    "parkway",
+    "project",
+    "paywithbank3d",
+    "infinitypaul",
+    "edward",
+    "paul"
+  ],
+  "author": "infinitypaul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parkwayprojects/vue-paywithbank3d/issues"
+  },
+  "homepage": "https://github.com/parkwayprojects/vue-paywithbank3d#readme"
 }

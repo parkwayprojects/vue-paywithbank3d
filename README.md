@@ -19,7 +19,7 @@ Add the Vue plugin in your main.js and pass your connect merchant key:
 
 ```vuejs
 import Vue from 'vue'
-import PayWithBank3D from 'vue-paywithbank3d'
+import PayWithBank3D from '@parkwayprojects/vue-paywithbank3d'
 
 Vue.use(PayWithBank3D, { merchantKey: 'YOUR PAYWITHBANK3D MERCHANT KEY' })
 ```
@@ -40,7 +40,7 @@ Create a paywithbank3d.js file in your plugins folder and add the Vue plugin:
 // plugins/paywithbank3d.js
 
 import Vue from 'vue'
-import PayWithBank3D from 'vue-paywithbank3d'
+import PayWithBank3D from '@parkwayprojects/vue-paywithbank3d'
 
 Vue.use(PayWithBank3D, { merchantKey: 'YOUR PAYWITHBANK3D MERCHANT KEY' })
 ```

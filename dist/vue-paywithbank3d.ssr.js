@@ -46,7 +46,8 @@ function _objectSpread2(target) {
 
   return target;
 }var payWithBank3D = {
-  install: function install(Vue, merchant_Key) {
+  install: function install(Vue, _ref) {
+    var merchantKey = _ref.merchantKey;
     Vue.mixin({
       mounted: function mounted() {
         var payWithBank3DJS = 'https://parkwaycdnstorage.blob.core.windows.net/bank3d/bank3d.min.js';
@@ -61,7 +62,7 @@ function _objectSpread2(target) {
     Vue.prototype.$paywithbank3d = {
       open: function open(options) {
         var payment = window.Bank3D.createPayment(_objectSpread2({
-          merchantKey: merchant_Key
+          merchantKey: merchantKey
         }, options));
         payment.open();
       }
