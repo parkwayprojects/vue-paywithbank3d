@@ -23,7 +23,6 @@ const payWithBank3D = {
     }
 
 
-
   }
 }
 
