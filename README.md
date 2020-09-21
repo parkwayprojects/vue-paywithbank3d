@@ -6,12 +6,12 @@
 
 ```
 // installation via npm
-npm i -S vue-paywithbank3d
+npm i -S @parkwayprojects/vue-paywithbank3d
 
 // or
 
 // installation via yarn
-yarn add vue-paywithbank3d
+yarn add @parkwayprojects/vue-paywithbank3d
 ```
 
 #### Vue

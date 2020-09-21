@@ -1,6 +1,6 @@
 {
   "name": "@parkwayprojects/vue-paywithbank3d",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A VueJS Package For Working With PayWithBank3D Seamlessly",
   "main": "dist/vue-paywithbank3d.ssr.js",
   "browser": "dist/vue-paywithbank3d.esm.js",
