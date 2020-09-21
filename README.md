@@ -29,9 +29,9 @@ Vue.use(PayWithBank3D, { merchantKey: 'YOUR PAYWITHBANK3D MERCHANT KEY' })
 Install the npm package
 
 ```
-npm install --save vue-paywithbank3d
+npm install --save @parkwayprojects/vue-paywithbank3d
 # OR
-yarn add vue-paywithbank3d
+yarn add @parkwayprojects/vue-paywithbank3d
 ```
 
 Create a paywithbank3d.js file in your plugins folder and add the Vue plugin:
